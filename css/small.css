@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&family=Roboto&display=swap');
 footer a {
     color: white; 
     font-style: italic;
@@ -14,10 +14,12 @@ footer {
 }
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 h2 {
+    font-family: 'Piazzolla', serif;
     margin-left: 20px;
     border-bottom: 1px solid;
 }
@@ -32,7 +34,7 @@ img {
 }
 
 p {
-    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
 }
@@ -41,4 +43,11 @@ p {
     margin-top: 0px;
     margin-bottom: 8px;
     color:white;
+}
+#last-edited p {
+    margin-top: 0em;
+    margin-bottom: .4em;
+}
+ul {
+    font-family: 'Piazzolla', serif;
 }
